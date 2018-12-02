@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace TodoMvvm
 {
-	class BaseViewModel : INotifyPropertyChanged
+	public class BaseViewModel : INotifyPropertyChanged
 	{
 
 		public ViewModelNavigation Navigation { get; set; }
